@@ -1,0 +1,476 @@
+[DataDirLocater::FindWriteableDataDir] using writeable data-directory "/home/michael/sprDev/spring-engine-linux-masterbuild/"
+Using writeable configuration source: "/home/michael/sprDev/spring-engine-linux-masterbuild/springsettings.cfg"
+LogOutput initialized. Logging to /home/michael/sprDev/spring-engine-linux-masterbuild/infolog.txt
+============== <Log Sections> ==============
+  Available:
+    ArchiveScanner
+    AutohostInterface
+    BumpWater
+    CSMFGroundTextures
+    CrashHandler
+    CregSerializer
+    DecalsDrawerGL4
+    DynWater
+    FarTextureHandler
+    Font
+    GameServer
+    GroundMoveType
+    KeyBindings
+    LuaSocket
+    Model
+    Net
+    Path
+    Piece
+    RoamMeshDrawer
+    Shader
+    SkyBox
+    Sound
+    Texture
+    VFS
+  Enabled:
+    Sound (Notice)
+    VFS (Info)
+  
+  Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+============== </Log Sections> ==============
+
+============== <User Config> ==============
+  AllowDeferredMapRendering = 1
+  AllowDeferredModelRendering = 1
+  BumpWaterAnisotropy = 2
+  BumpWaterBlurReflection = 1
+  BumpWaterDepthBits = 32
+  BumpWaterReflection = 2
+  BumpWaterTexSizeReflection = 256
+  CamFreeScrollSpeed = 50
+  CamMode = 1
+  DualScreenMiniMapOnLeft = 1
+  EdgeMoveDynamic = 0
+  EdgeMoveWidth = 0.003
+  FPSFOV = 90
+  FPSScrollSpeed = 50
+  FontSize = 18
+  Fullscreen = 0
+  GrassDetail = 9
+  GroundDecals = 5
+  GroundDetail = 120
+  GroundScarAlphaFade = 1
+  HangTimeout = 30
+  HardwareCursor = 1
+  InitialNetworkTimeout = 0
+  InputTextGeo = 0.26 0.73 0.02 0.028
+  LastSelectedMap = Comet Catcher Redux v3.1
+  LastSelectedMod = Zero-K $VERSION
+  LuaGarbageCollectionMemLoadMult = 100
+  MSAALevel = 8
+  MaxParticles = 25000
+  MaxSounds = 32
+  MaximumTransmissionUnit = 0
+  MiddleClickScrollSpeed = -0.0015
+  MiniMapMarker = 0
+  MouseDragCircleCommandThreshold = 25
+  MouseDragScrollThreshold = 0
+  OverheadMaxHeightFactor = 1.39999998
+  OverheadScrollSpeed = 50
+  ReconnectTimeout = 0
+  RotOverheadScrollSpeed = 50
+  RotateLogFiles = 1
+  ScrollWheelSpeed = -25
+  Shadows = 1
+  ShowClock = 0
+  ShowPlayerInfo = 0
+  SplashScreenDir = ./MenuLoadscreens
+  TeamHighlight = 0
+  TreeRadius = 1500
+  UnitLodDist = 500
+  UseDistToGroundForIcons = 1.10000002
+  UseLuaMemPools = 0
+  VFSCacheArchiveFiles = 0
+  Water = 4
+  WindowPosX = 0
+  WindowPosY = 0
+  XResolutionWindowed = 1920
+  YResolutionWindowed = 1080
+============== </User Config> ==============
+
+============== <User System> ==============
+  Spring Engine Version: 104.0.1-1435-g79d77ca maintenance
+      Build Environment: gcc libstdc++ version 20160609
+       Compiler Version: gcc-5.4.0 20160609
+       Operating System: Linux 4.15.0-1073-oem #83-Ubuntu SMP Mon Feb 17 11:21:18 UTC 2020 (x86_64)
+        Hardware Config: Intel(R) Xeon(R) E-2286M  CPU @ 2.40GHz; 15791MB RAM
+       Binary Word Size: 64-bit (native)
+          Process Clock: std::chrono::high_resolution_clock
+     Physical CPU Cores: 8
+      Logical CPU Cores: 16
+============== </User System> ==============
+
+[good_fpu_init][STREFLOP_SSE]
+	SSE 1.0 : 1,  SSE 2.0 : 1
+	SSE 3.0 : 1, SSSE 3.0 : 1
+	SSE 4.1 : 1,  SSE 4.2 : 1
+	SSE 4.0A: 0,  SSE 5.0A: 0
+[WatchDog::Install] installed (hang-timeout: 30s)
+[WatchDog::RegisterThread] registering controls for thread [main]
+[GL::CheckAvailableVideoModes] desktop={1920x1080x24bpp@120Hz} current={1920x1080x24bpp@120Hz}
+	display=1 modes=65 bounds={x=0, y=0, w=1920, h=1080}
+		[ 1] 1920x1080x24bpp@120Hz
+		[ 4] 1680x1050x24bpp@60Hz
+		[ 5] 1600x1024x24bpp@60Hz
+		[ 6] 1600x900x24bpp@120Hz
+		[ 8] 1440x900x24bpp@60Hz
+		[ 9] 1440x810x24bpp@120Hz
+		[16] 1280x800x24bpp@120Hz
+		[18] 1280x720x24bpp@120Hz
+		[23] 1024x576x24bpp@120Hz
+		[26] 960x600x24bpp@120Hz
+		[27] 960x540x24bpp@120Hz
+		[31] 864x486x24bpp@60Hz
+		[32] 840x525x24bpp@120Hz
+		[36] 800x512x24bpp@120Hz
+		[37] 800x450x24bpp@120Hz
+		[38] 720x450x24bpp@120Hz
+		[39] 720x405x24bpp@60Hz
+		[48] 640x400x24bpp@120Hz
+		[49] 640x360x24bpp@120Hz
+		[54] 512x288x24bpp@120Hz
+		[55] 480x270x24bpp@120Hz
+		[57] 432x243x24bpp@120Hz
+		[64] 320x180x24bpp@120Hz
+[GR::CreateSDLWindow] using 8x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888") for main window
+[GR::CreateSDLWindow] using 8x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888") for hidden window
+[GR::LogVersionInfo]
+	SDL version : 2.0.8 (linked) / 2.0.4 (compiled)
+	GL version  : 4.6.0 NVIDIA 410.93
+	GL vendor   : NVIDIA Corporation
+	GL renderer : Quadro FX Graphics Device/PCIe/SSE2
+	GLSL version: 4.60 NVIDIA
+	GLEW version: 2.1.0
+	GPU memory  : 4096MB (total) / 3034MB (available)
+	SDL swap-int: 1
+	
+	ARB shader support        : 1
+	GLSL shader support       : 1
+	FBO extension support     : 1
+	NVX GPU mem-info support  : 1
+	ATI GPU mem-info support  : 0
+	NPOT-texture support      : 1 (1)
+	S3TC/DXT1 texture support : 1/1
+	texture query-LOD support : 1 (1)
+	MSAA frame-buffer support : 1 (1)
+	24-bit Z-buffer support   : 1 (-)
+	primitive-restart support : 1 (1)
+	clip-space control support: 1 (1)
+	seamless cube-map support : 1 (1)
+	frag-depth layout support : 1 (-)
+	
+	max. FBO samples             : 64
+	max. texture size            : 32768
+	max. texture anisotropy level: 16.000000
+	max. vec4 varyings/attributes: 31/16
+	max. draw-buffers            : 8
+	max. rec. indices/vertices   : 1048576/1048576
+	max. uniform buffer-bindings : 84
+	max. uniform block-size      : 64KB
+	
+	enable ATI-hacks : 0
+	compress MIP-maps: 0
+[GR::ToggleGLDebugOutput] OpenGL debug-context not installed (dbgErrors=0 dbgTraces=0)
+[GR::UpdateGLConfigs]
+[VSync::SetInterval] interval=0 (disabled)
+[GR::UpdateGLGeometry][1] winSize=<1,1>
+[GR::UpdateGLGeometry][2] winSize=<1920,1080>
+[GR::InitGLState]
+[GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@120Hz (windowed::decorated)
+[TexMemPool::Resize] poolSize=268435456u allocSize=0u texCount=0u
+[~ScopedOnceTimer][FtLibraryHandler::FontConfigInit (version 2.11.94)] 10ms
+[WatchDog::RegisterThread] registering controls for thread [vfsi]
+[DataDirLocater::FindWriteableDataDir] using writeable data-directory "/home/michael/sprDev/spring-engine-linux-masterbuild/"
+[DataDirLocater::Check] Portable Mode!
+[DataDirLocater::FilterUsableDataDirs] using read-write data directory: /home/michael/sprDev/spring-engine-linux-masterbuild/
+[DataDirLocater::FilterUsableDataDirs] using read-only data directory: /home/michael/.spring/
+Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+Error: [CSevenZipArchive] error opening "/home/michael/sprDev/spring-engine-linux-masterbuild/maps/living_lands_4.1.sd7": Unexpected end of file (truncated?)
+[ArchiveLoader::OpenArchive(name="/home/michael/sprDev/spring-engine-linux-masterbuild/maps/living_lands_4.1.sd7" type="")] could not load or open archive 0x7feee00b6640
+Warning: [AS::ScanArchive] unable to open archive "/home/michael/sprDev/spring-engine-linux-masterbuild/maps/living_lands_4.1.sd7"
+[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 7ms
+[VFS] [SpringVFS::ReserveArchives<this=0x7feee002afe0>]
+[VFS] [SpringVFS::AddArchive<this=0x7feee002afe0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[VFS] [VFSHandler::SetGlobalInstanceRaw] handler=0x7feee002afe0 (SpringVFS) global=(nil) (null)
+[WatchDog::DeregisterThread] deregistering controls for thread [vfsi]
+[ThreadPool::SetThreadCount][1] wanted=4 current=1 maximum=8 (init=1)
+[ThreadPool::SetThreadCount][2] workers=3
+[Threading] Main thread CPU affinity mask set: 8184 (config is 65528)
+[f=-000001] [~ScopedOnceTimer][ISound::Init::New] 0ms
+[f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=32
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.1ms)
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=-000001] [Sound] [Sound::InitThread][1]
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (100.2ms)
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=0x7feed4021a00 context=0x7feed401a650
+[f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.18.2
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_output_limiter ALC_SOFT_pause_device
+[f=-000001] [Sound]   Devices:
+[f=-000001] [Sound]     [Built-in Audio Analogue Stereo]
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] #attribs=19
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] {cfg,alc}MaxSounds={32,255}
+[f=-000001] [Sound]   EFX Enabled: yes
+[f=-000001] [Sound] [Sound::UpdateThread][2]
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 200ms
+[f=-000001] [LuaMenuController::Reset] using menu archive "Chobby $VERSION"
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7feee002afe0>(arName="Chobby $VERSION", overwrite=false)] section=3 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7feee002afe0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7feee002afe0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7feee002afe0>(arName="Spring Cursors", overwrite=false)] section=2 cached=0
+[f=-000001] LuaMenu Entry Point: "LuaMenu/main.lua"
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] [LuaMenu] Searching for new Widgets
+[f=-000001] [LuaMenu] Scanning: LuaMenu/Addons/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/Widgets/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/SystemAddons/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/SystemWidgets/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/chili/
+[f=-000001] [LuaMenu] Scanning: libs/chilifx/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/chilivn/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/chotify/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/i18n/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/liblobby/LuaMenu/widgets
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: base64.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: engineversion.lua
+[f=-000001] Spring.GetWindowGeometry, 1920, 1080, 0, 0
+[f=-000001] Spring.GetViewGeometry, 1920, 1080, 0, 0
+[f=-000001] gl.GetViewSizes, 1920, 1080
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: function_override.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: json.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: tablefunctions.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: timefunctions.lua
+[f=-000001] [LuaMenu] Loading widgets   <>=vfs  **=raw  ()=unknown
+[f=-000001] [LuaMenu] Loading API widget:  Delay API              <api_delay.lua>
+[f=-000001] [LuaMenu] Loading API widget:  spring-launcher        <api_spring_launcher_loader.lua>
+[f=-000001] [spring-launcher] Disabling spring-launcher due to missing connection detalis.
+[f=-000001] [LuaMenu] Loading API widget:  Limit FPS              <api_limit_fps.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Away Tracker           <gui_away_tracker.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Chili Framework        <api_chili.lua>
+[f=-000001] [LuaMenu] Loading API widget:  LibLobby API           <api_lobby.lua>
+[f=-000001] [liblobby] liblobby configuration: 
+[f=-000001] [liblobby] serverName, Spring
+[f=-000001] [liblobby] port, 8200
+[f=-000001] [liblobby] protocol, spring
+[f=-000001] [liblobby] address, 65.49.213.45
+[f=-000001] [LuaMenu] Loading API widget:  i18n                   <api_i18n.lua>
+[f=-000001] [LuaMenu] Loading API widget:  ChiliFX                <api_chilifx.lua>
+[f=-000001] [ChiliFX] Enabled: true
+[f=-000001] [LuaMenu] Loading API widget:  Chotify                <api_chotify.lua>
+[f=-000001] [Chotify] Enabled: true
+[f=-000001] [LuaMenu] Loading API widget:  Download Handler       <api_download_handler.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Ingame Interface       <api_ingame_interface.lua>
+[f=-000001] [LuaMenu] Loading widget:      Test                   <dbg_test.lua>
+[f=-000001] [LuaMenu] Loading widget:      Command Buffering      <api_command_buffering.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle List Window     <gui_battle_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Options Window  <gui_campaign_options.lua>
+[f=-000001] [LuaMenu] Loading widget:      Community Window       <gui_community_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Download Window        <gui_download_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Friend Window          <gui_friend_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Missions Handles       <gui_mission_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Notification Handler   <api_notification_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Planetwars List Window  <gui_planetwars_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Queue List Window      <gui_queue_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Replays window         <gui_replay_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Settings Window        <gui_settings_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      SpringBoard Window     <gui_springboard_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Users Handler          <api_user_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK wrapper loopback interface  <zk_loopback.lua>
+[f=-000001] [Chobby] No port support, chobby_wrapper_port.txt not found.
+[f=-000001] [LuaMenu] Loading widget:      Cache Handler API      <api_cache_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Internet Browser API   <api_internet_browser.lua>
+[f=-000001] [LuaMenu] Loading widget:      Map Handler API        <api_map_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Spring-Launcher log-upload  <sl_upload_log.lua>
+[f=-000001] [Chobby] spring-launcher doesn't exist.
+[f=-000001] [LuaMenu] Loading widget:      Spring-Launcher wrapper loopback interface  <sl_loopback.lua>
+[f=-000001] [Chobby] spring-launcher doesn't exist.
+[f=-000001] [LuaMenu] Loading widget:      Campaign Data Handler  <api_campaign_data.lua>
+[f=-000001] [LuaMenu] Loading widget:      API Script Handler     <api_script_generator.lua>
+[f=-000001] [LuaMenu] Loading widget:      Analytics Handler      <api_analytics.lua>
+[f=-000001] [LuaMenu] Loading widget:      Animation control      <api_animation_control.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle Login Rejoin    <gui_battle_login_rejoin.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle Room Window     <gui_battle_room_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle status panel    <gui_battle_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Benchmark Handler      <gui_benchmark_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Commander Loadout  <gui_campaign_commander_loadout.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Handler       <gui_campaign_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Handler ZK    <zk_campaign_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Save/Load     <gui_campaign_saveload.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Technology Panel  <gui_campaign_technology_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Chili Visual Novel     <campaign_chili_vn.lua>
+[f=-000001] [LuaMenu] Loading widget:      Codex Handler          <gui_campaign_codex_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Color change window    <gui_color_change_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Cursor tooltip         <gui_tooltip.lua>
+[f=-000001] [LuaMenu] Loading widget:      Discord Handler        <api_discord_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Load Game Menu         <gui_loadgame.lua>
+[f=-000001] [LuaMenu] Loading widget:      Login Window           <gui_login_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Maplist Panel          <gui_maplist_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Mission Progress Handler  <api_mission_progress_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Modoptions Panel       <gui_modoptions_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Party status panel     <gui_party_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Planet Battle Handler  <api_planet_battle_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Popup Preloader        <gui_popup_preloader.lua>
+[f=-000001] [LuaMenu] Loading widget:      Queue status panel     <gui_queue_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Rank update window     <gui_rank_update_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Coop Handler     <gui_steam_coop_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Handler          <api_steam_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Release Notifier  <gui_steam_release_notifier.lua>
+[f=-000001] [LuaMenu] Loading widget:      User status panel      <gui_user_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK Comm Config         <gui_zk_comm_config.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK replay downloader   <zk_replay_launcher.lua>
+[f=-000001] [LuaMenu] Loading widget:      ChiliProfiler          <dbg_chili_profiler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Image Preloader        <dbg_img_preload.lua>
+[f=-000001] [LuaMenu] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [LuaMenu] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [LuaMenu] Loading widget:      Chili lobby            <gui_chili_lobby.lua>
+[f=-000001] [Chobby] Error: [LuaVFS::Include(synced=0)][pcall] file=LuaMenu/widgets/chobby/components/configuration.lua error=2 ([LuaVFS::Include(synced=0)][loadvfs] file=LuaMenu/configs/gameConfig/evorts/mainConfig.lua status=-1 cenv=0) ptop=3 cenv=1
+[f=-000001] [Chobby] Error: [LuaVFS::Include(synced=0)][pcall] file=LuaMenu/widgets/chobby/components/configuration.lua error=2 ([LuaVFS::Include(synced=0)][loadvfs] file=LuaMenu/configs/gameConfig/evorts/mainConfig.lua status=-1 cenv=0) ptop=3 cenv=1
+stack traceback:
+	[string "LuaMenu/widgets/chobby/core.lua"]:118: in function '_PrintError'
+	[string "LuaMenu/widgets/chobby/core.lua"]:113: in function <[string "LuaMenu/widgets/chobby/core.lua"]:113>
+	[C]: in function 'Include'
+	[string "LuaMenu/widgets/chobby/core.lua"]:47: in function 'func'
+	[string "LuaMenu/widgets/chobby/core.lua"]:112: in function <[string "LuaMenu/widgets/chobby/core.lua"]:112>
+	[C]: in function 'xpcall'
+	[string "LuaMenu/widgets/chobby/core.lua"]:112: in function 'WrapCall'
+	[string "LuaMenu/widgets/chobby/core.lua"]:46: in function '_Initialize'
+	[string "LuaMenu/Widgets/gui_chili_lobby.lua"]:85: in function <[string "LuaMenu/Widgets/gui_chili_lobby.lua"]:69>
+	[C]: in function 'pcall'
+	[string "LuaHandler/Utilities/crashHandler.lua"]:102: in function 'SafeCallAddon'
+	[string "LuaHandler/handler.lua"]:647: in function 'Load'
+	[string "LuaHandler/handler.lua"]:285: in function 'UpdateAddonList'
+	[string "LuaHandler/handler.lua"]:233: in function 'Initialize'
+	[string "LuaHandler/handler.lua"]:1076: in main chunk
+	[C]: in function 'Include'
+	[string "LuaHandler/Utilities/utils.lua"]:123: in function 'include'
+	[string "LuaMenu/main.lua"]:54: in main chunk
+[f=-000001] [Chobby] Chobby Shutdown
+[f=-000001] [LuaMenu] Error: In Initialize(): [string "LuaMenu/widgets/chobby/components/configura..."]:754: attempt to index field 'gameConfig' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Chili lobby>
+[f=-000001] [LuaMenu] Error: In SetConfigData(): [string "LuaMenu/Widgets/gui_chili_lobby.lua"]:149: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Chili lobby>
+[f=-000001] [LuaMenu] Loading widget:      Standalone lobby tools  <gui_standalone_lobby.lua>
+[f=-000001] [LuaMenu] Loading widget:      Block Input            <gui_block_input.lua>
+[f=-000001] [LuaMenu] Loading widget:      Music Player Lite      <snd_music_lite.lua>
+[f=-000001] [LuaMenu] Error: In Initialize(): [string "LuaMenu/Widgets/snd_music_lite.lua"]:149: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Music Player Lite>
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] [LuaMenu] LuaMenu v1.0 (Lua 5.1)
+[f=-000001] [LuaMenuController::Activate(msg="")] luaMenu=0x461c3f10
+[f=-000001] [LuaMenu] Error: In Shutdown(): [string "LuaMenu/Widgets/gui_settings_window.lua"]:252: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: In ActivateMenu(): [string "LuaMenu/Widgets/gui_settings_window.lua"]:1751: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Settings Window>
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1025>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1025>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1025x24bpp@120Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1025>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1025>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1025x24bpp@120Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_community_window.lua"]:954: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_planetwars_list_window...."]:1316: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_replay_handler.lua"]:336: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_settings_window.lua"]:1783: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/api_user_handler.lua"]:1013: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/api_campaign_data.lua"]:469: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/api_animation_control.lua"]:22: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_battle_room_window.lua"]:2201: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_login_window.lua"]:114: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_party_status_panel.lua"]:280: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_queue_status_panel.lua"]:550: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/dbg_chili_profiler.lua"]:196: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/api_download_handler.lua"]:380: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: In Update(): [string "LuaMenu/Widgets/api_command_buffering.lua"]:51: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Command Buffering>
+[f=-000001] [LuaMenu] Error: In Update(): [string "LuaMenu/Widgets/gui_user_status_panel.lua"]:197: attempt to index upvalue 'btnLogout' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <User status panel>
+[f=-000001] [LuaMenu] Error: In AllowDraw(): [string "LuaMenu/Widgets/api_limit_fps.lua"]:69: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Limit FPS>
+[f=-000001] [LuaMenu] Error: In Update(): [string "LuaMenu/Widgets/gui_queue_list_window.lua"]:732: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Queue List Window>
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_login_window.lua"]:93: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_login_window.lua"]:107: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [delay_api] Error: Error with delayed call: [string "LuaMenu/Widgets/gui_steam_release_notifier...."]:25: attempt to index field 'Chobby' (a nil value)
+[f=-000001] [SpringApp::Kill][1] fromRun=1
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=4 maximum=8 (init=0)
+[f=-000001] 	[async=0] threads=4 tasks=0 {sum,avg}{exec,wait}time={{0.000, 0.000}, {0.000, 0.000}}ms
+[f=-000001] 	[async=1] threads=4 tasks=3 {sum,avg}{exec,wait}time={{0.030, 0.010}, {0.091, 0.030}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.012, 0.012, 0.012, 0.012}, {0.032, 0.032, 0.032, 0.032}}ms
+[f=-000001] 		thread=2 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.009, 0.009, 0.009, 0.009}, {0.010, 0.010, 0.010, 0.010}}ms
+[f=-000001] 		thread=3 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.009, 0.009, 0.009, 0.009}, {0.049, 0.049, 0.049, 0.049}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [SpringApp::Kill][2]
+[f=-000001] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] #sources=32 #items=1
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=0x7feed401a650 dev=0x7feed4021a00
+[f=-000001] [Sound] [Sound::UpdateThread][5] ctx=0x7feed401a650 dev=0x7feed4021a00
+[f=-000001] [Sound] [Sound::Cleanup][alcDestroyContext(0x7feed401a650)]
+[f=-000001] [Sound] [Sound::Cleanup][alcCloseDevice(0x7feed4021a00)]
+[f=-000001] [Sound] [Sound::UpdateThread][6]
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] [LuaMemPool::LogStats][handle=LuaMenu (unsynced)] index=0 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={0,1337762,0} {chunk,block}Bytes={0,0}
+[f=-000001] [SpringApp::Kill][3]
+[f=-000001] [SpringApp::Kill][4] font=0x45b2f990
+[f=-000001] [SpringApp::Kill][5]
+[f=-000001] [SpringApp::Kill][6]
+[SpringApp::Kill][7]
+[LuaSocket] [~CLuaSocketRestrictions] dumping luasocket rules:
+[LuaSocket] TCP_CONNECT ALLOW * -1
+[LuaSocket] TCP_LISTEN  ALLOW * -1
+[LuaSocket] UDP_LISTEN  ALLOW * -1
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>]
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=0)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=1)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=2)] #archives[section]=3 #files[section]=422
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/base/cursors.sdz (0x45f4c3f0)
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/base/springcontent.sdz (0x7feee0027280)
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/base/spring/bitmaps.sdz (0x4565d2d0)
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=3)] #archives[section]=1 #files[section]=2682
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/games/cho.sdd (0x45bd90f0)
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=4)] #archives[section]=0 #files[section]=111
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=5)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=6)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=7)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7feee002afe0>(section=8)] #archives[section]=0 #files[section]=0
+[SpringApp::Kill][8]
+[WatchDog::DeregisterThread] deregistering controls for thread [main]
+[WatchDog::Uninstall][1] hangDetectorThread=0x2011b90 (joinable=1)
+[WatchDog::Uninstall][2]
+[WatchDog::Uninstall][3]
+[SpringApp::Kill][9]
